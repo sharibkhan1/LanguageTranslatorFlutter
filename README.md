@@ -28,11 +28,11 @@
 
 git clone https://github.com/sharibkhan1/LanguageTranslatorFlutter.git
 
-cd LanguageTranslatorFlutter
+>cd LanguageTranslatorFlutter
 
 ### 2.Install dependencies:
 
-flutter pub get
+>flutter pub get
 
 ### 3.Configure the API key:
 
@@ -42,19 +42,19 @@ flutter pub get
 
 
 
-final Map<String, String> headers = {
-
- "x-rapidapi-key": "YOUR_API_KEY",
-
-  "x-rapidapi-host": "deep-translate1.p.rapidapi.com",
-
- "Content-Type": "application/json",
-
- };
+>final Map<String, String> headers = {
+>
+> "x-rapidapi-key": "YOUR_API_KEY",
+>
+>  "x-rapidapi-host": "deep-translate1.p.rapidapi.com",
+>
+> "Content-Type": "application/json",
+>
+> };
 
 ### 4.Running the App
 
-flutter run
+>flutter run
 
 ## Explanation of AI Tools Used
 
