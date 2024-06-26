@@ -1,5 +1,5 @@
 # Multilingual Translation App
-https://github.com/sharibkhan1/LanguageTranslatorFlutter/assets/114480935/d880cd0f-8b34-4490-ab42-0cbd9d2042cb
+
 ### This project is a multilingual translation application built using Flutter. It provides the following features:
 
 #### 1.Language Translation of UI:
@@ -42,15 +42,15 @@ flutter pub get
 
 
 
-#### final Map<String, String> headers = {
+final Map<String, String> headers = {
 
-####  "x-rapidapi-key": "YOUR_API_KEY",
+ "x-rapidapi-key": "YOUR_API_KEY",
 
-####  "x-rapidapi-host": "deep-translate1.p.rapidapi.com",
+  "x-rapidapi-host": "deep-translate1.p.rapidapi.com",
 
-####  "Content-Type": "application/json",
+ "Content-Type": "application/json",
 
-#### };
+ };
 
 ### 4.Running the App
 
@@ -73,7 +73,7 @@ Ease of Integration: The API is straightforward to use and integrate with existi
  Integrating the translation API with Flutter.
 
 #### Solution:
- Followed the API documentation and used Flutter's 'http' package to handle API requests and responses.
+ Followed the API documentation and used Flutter's **'http'** package to handle API requests and responses.
 
 ### Challenge 2: Managing State for Multiple Languages
 
@@ -88,8 +88,13 @@ Ease of Integration: The API is straightforward to use and integrate with existi
 #### Issue:
  Ensuring accurate text-to-speech and speech-to-text conversion for multiple languages.
 #### Solution:
- Used Flutter plugins like "flutter_tts" for text-to-speech and "speech_to_text" for speech-to-text, and fine-tuned the configurations for different languages.
+ Used Flutter plugins like **"flutter_tts"** for text-to-speech and **"speech_to_text"** for speech-to-text, and fine-tuned the configurations for different languages.
 
+## Video 
+
+### Highlight key features of your app.
+
+https://github.com/sharibkhan1/LanguageTranslatorFlutter/assets/114480935/d880cd0f-8b34-4490-ab42-0cbd9d2042cb
 
 ## Code Overview
 
